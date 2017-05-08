@@ -42,9 +42,9 @@ nock('http://example.com')
 
   .get('/setcookie')
   .reply(200, '', {
-    'Set-Cookie': 'x',
-    'Set-Cookie2': 'y',
-    'Set-Cookie3': 'z', // This is not a special cookie setting header.
+    // 'Set-Cookie': 'x',
+    // 'Set-Cookie2': 'y',
+    // 'Set-Cookie3': 'z', // This is not a special cookie setting header.
   })
 
   .get('/redirecttarget')
